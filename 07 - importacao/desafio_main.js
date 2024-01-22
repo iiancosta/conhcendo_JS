@@ -1,4 +1,8 @@
 
+const funcoes = require('./desafio_funcoes'); // Importa as funções do outro arquivo
+
+/* EXERCÍCIO 1
+
 1) Faça um programa que receba um número e escreva a sua respectiva tabuada.
     Exemplo:
         Entrada:
@@ -15,6 +19,11 @@
             2x8 = 16
             2x9 = 18
             2x10 = 20
+*/
+
+funcoes.tabuada(10);
+
+/* EXERCÍCIO 2
 
 2) Faça um programa que receba a quantidade de números e seus respectivos valores. 
 Imprima o maior e o menor número deste conjunto.
@@ -30,6 +39,12 @@ Exemplo:
     Saída:
         Maior número: 200
         Menor número: 90
+*/
+
+const lista = [ 4, 7, 100, 1, 1500, -3, 90, 2, 3095, 234, 34, 43, 52, 0, 9, 4443 ];
+funcoes.maior_menor(lista);
+
+/* EXERCÍCIO 3
 
 3) Faça um programa que receba a quantidade de números e seus respectivos valores.
 Imprima todos os números pares.
@@ -44,3 +59,6 @@ Exemplo:
 
     Saída:
         Números Pares: 10, 12
+*/
+
+funcoes.impar_par(lista);
